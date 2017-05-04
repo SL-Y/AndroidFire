@@ -37,6 +37,7 @@ import rx.functions.Action1;
  * des:主界面
  * Created by xsf
  * on 2016.09.15:32
+ * 哈哈
  */
 public class MainActivity extends BaseActivity {
     @Bind(R.id.tab_layout)
@@ -64,6 +65,8 @@ public class MainActivity extends BaseActivity {
         activity.startActivity(intent);
         activity.overridePendingTransition(R.anim.fade_in,
                 com.jaydenxiao.common.R.anim.fade_out);
+
+
     }
 
     @Override
